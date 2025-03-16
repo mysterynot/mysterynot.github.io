@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh; /* Mindesthöhe für den gesamten Body */
+    background-color: #f0f0f0;
+    padding: 0 20px;
+    overflow-y: auto; /* Ermöglicht vertikales Scrollen */
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+    padding: 20px;
+    background-color: #a8c4b1; /* Hellgrüner Hintergrund für den äußeren Bereich */
+    border: none;  /* Keine Border für den äußeren Rand */
+    margin-bottom: 20px; /* Etwas Abstand nach unten */
+}
+
+.content {
+    background-color: white; /* Weißer innerer Bereich */
+    border: 10px solid #66836f;  /* Grüner Rand um den inneren Bereich */
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+    height: 3000px;  /* Höhe des weißen Bereichs auf 3x der vorherigen Höhe gesetzt */
+}
+
+.header {
+    display: flex;
+    height: 40px;
+}
+
+.header div:first-child {
+    width: 50%;
+    background-color: #66836f;
+}
+
+.header div:last-child {
+    width: 50%;
+    background-color: #2c3e50;
+}
+
+.top-boxes {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.box {
+    width: 30%;
+    height: 40px;
+    background-color: #f4e1d2;
+    border: 2px solid #66836f;
+    margin: 5px;
+}
+
+.footer {
+    height: 40px;
+    background-color: #66836f;
+}
+
+/* Neue Styles für den gesamten Hintergrund, der grün sein soll */
+body {
+    background-color: #a8c4b1;  /* Der gesamte Hintergrund des Body wird hellgrün */
+}
+
+
+
